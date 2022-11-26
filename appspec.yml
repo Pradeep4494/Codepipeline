@@ -3,9 +3,9 @@ os: linux
 
 files:
   - source: /codepipeline.war
-    destination: /opt/tomcat/webapps/
+    destination: /opt/tomcat/apache-tomcat-9.0.69/webapps/
   - source: /TestXMLFile.xml
-    destination: /opt/tomcat/webapps/
+    destination: /opt/tomcat/apache-tomcat-9.0.69/webapps/
     
 file_exists_behavior: OVERWRITE    
           
